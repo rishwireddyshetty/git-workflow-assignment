@@ -1,0 +1,51 @@
+
+git init
+Initializes a new Git repository.
+
+git branch -M main
+Renames the current branch to main.
+
+git status
+Displays the current repository status.
+
+git add .
+Stages all eligible changes.
+
+git add filename
+Stages a specific file.
+
+git commit -m "message"
+Creates a commit with a descriptive message.
+
+git log --oneline
+Displays a compact commit history.
+
+git switch -c feature
+Creates and switches to the feature branch.
+
+git switch main
+Switches to the main branch.
+
+git branch
+Displays local branches.
+
+git merge feature
+Merges feature into the current branch.
+
+git log --oneline --graph --decorate --all
+Displays commit history with branch information.
+
+git revert HEAD
+Creates a new commit that reverses the latest commit.
+
+git remote add origin URL
+Connects the local repository to GitHub.
+
+git push -u origin main
+Pushes the main branch to GitHub.
+
+git push -u origin feature
+Pushes the feature branch to GitHub.
+
+git remote -v
+Displays remote repository URLs.
